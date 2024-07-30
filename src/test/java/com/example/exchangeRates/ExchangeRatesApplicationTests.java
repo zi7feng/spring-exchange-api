@@ -21,6 +21,7 @@ class ExchangeRatesApplicationTests {
 
     final String[] expectedCurrencies = {"EUR", "GBP", "NGN", "USD", "YEN"};
 
+
     @Autowired
     private MockMvc mvc;
     @Autowired
